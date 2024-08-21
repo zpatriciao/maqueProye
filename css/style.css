@@ -1,0 +1,67 @@
+body{
+    background : #f2f2f2;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* para que el nav se ponga con fondo blanco */
+header .nav{
+    min-height: 90px;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* para que todo tenga la misma letra y el inline */
+header .logo h2,
+header .logo p{
+    font-size: 18px;
+    display:inline-block;
+}
+
+/* color del icono */
+header .logo .icono{
+    color: #CDE7B0;
+}
+
+header .logo svg{
+    width: 20px;
+    height: 20px;
+}
+
+/* cambiar color del texto de agro-sena */
+header .logo .p{
+    color: #D0E3C4 
+}
+
+header .menu .co1{background: #DFF2D8;}
+header .menu .co2{background: #C6DEA6;}
+header .menu .co3{background: #BFCC94}
+
+header .menu .co1:hover{background: #95eec6;}
+header .menu .co2:hover{background: #8dc8a0;}
+header .menu .co3:hover{background: #78ab75}
+
+/* main y produccion  */
+.produccion {
+    border-top: 5px solid #B6C8A9;
+    background: #FFFF;
+}
+
+.produccion .titulo{
+    color: #65743A;
+    font-family: 'open sans', sans-serif;
+    font-weight: 300;
+}
+
+.produccion .galeria .contenedor-imagen{
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.produccion .galeria .contenedor-imagen a{
+    background: #65743A;
+    display: inline-block;
+}
+
+.produccion .galeria .contenedor-imagen:hover img{
+    opacity: .2;
+}
